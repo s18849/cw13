@@ -143,10 +143,10 @@ namespace UniversityTests.UnitTests.Students
             Assert.IsTrue(vm.Count() == 3);
 
             //first student
-            Assert.IsTrue(vm.ElementAt(0).AverageGrade == 3);
+            Assert.IsTrue(vm.ElementAt(0).AverageGrade == 4);
             Assert.IsTrue(vm.ElementAt(0).EctsSum == 5);
             //second student
-            Assert.IsTrue(vm.ElementAt(1).AverageGrade == 4);
+            Assert.IsTrue(vm.ElementAt(1).AverageGrade == 3);
             Assert.IsTrue(vm.ElementAt(1).EctsSum == 5);
             //third student - without grades
             Assert.IsTrue(vm.ElementAt(2).AverageGrade == 0);
